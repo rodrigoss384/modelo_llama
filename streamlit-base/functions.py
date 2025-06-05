@@ -7,7 +7,7 @@ import PyPDF2
 from llama_cpp import Llama
 
 # Caminho para o modelo GGUF (ajuste conforme necessário)
-MODEL_PATH = "llama-2-7b.Q6_K.gguf"
+MODEL_PATH = "llama-2-7b.Q4_0.gguf"
 
 # Carrega o modelo uma vez durante a inicialização
 llm = Llama(

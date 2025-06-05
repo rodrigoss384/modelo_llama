@@ -3,7 +3,7 @@ Instale essa dependência caso falhe:
 
 pip install llama-cpp-python
 
-python3 -m venv ~/meu ambiente
+python3 -m venv ~/meu_ambiente
 
 source ~/meu_ambiente/bin/activate
 
@@ -16,3 +16,6 @@ cd streamlit_base
 Execute a aplicação:
 
 streamlit run app.py
+
+
+https://cdn-lfs.hf.co/repos/90/07/90076ae9a201487aedadb49bde2070797e223829cae7492b17e60c2fd791b379/78b8f9777dd620ad29cd2cffb6653b17fa8a5b1fddc1b8821180d60eedd24d48?response-content-disposition=attachment%3B+filename*%3DUTF-8%27%27llama-2-7b.Q4_0.gguf%3B+filename%3D%22llama-2-7b.Q4_0.gguf%22%3B&Expires=1749093521&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc0OTA5MzUyMX19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy5oZi5jby9yZXBvcy85MC8wNy85MDA3NmFlOWEyMDE0ODdhZWRhZGI0OWJkZTIwNzA3OTdlMjIzODI5Y2FlNzQ5MmIxN2U2MGMyZmQ3OTFiMzc5Lzc4YjhmOTc3N2RkNjIwYWQyOWNkMmNmZmI2NjUzYjE3ZmE4YTViMWZkZGMxYjg4MjExODBkNjBlZWRkMjRkNDg%7EcmVzcG9uc2UtY29udGVudC1kaXNwb3NpdGlvbj0qIn1dfQ__&Signature=UNss3-KqYkRLOmuckeomdGQ0jYRQdtQYjY4H4yA7rZY-JNoek-wMDbDFgkccj40JJZoAP-f542r9EqK2KU2IVm71sfccOHz3yLGDH2u%7EHgZ5OJ8-8SPIugGF9X9YF%7E1Rt1xtW7R28KDneFb2to1ODmiN5PjQD8JQJaSXMlbeW7SfYXtDEl8Ubs2IdRK4LGXSXEtokv-l4to0GZfijKu8OMCDoR239F2N5D%7ETuKZsR4kACign6LZrKqSSTux8kaM1mruHOuhVRfOjMiZPJMWrsbo2%7E8aYkQyB15XZoq9cF13NPs38xu81FsOZiqYgjcqD4M6DG%7EieY4Sn-RCaVz9i4A__&Key-Pair-Id=K3RPWS32NSSJCE
