@@ -1,0 +1,22 @@
+Instruções de uso:
+Instale essa dependência caso falhe:
+
+pip install llama-cpp-python
+
+python3 -m venv ~/meu_ambiente
+
+source ~/meu_ambiente/bin/activate
+
+cd /diretorio_dos_arquivos
+
+pip install -r requeriments
+
+cd streamlit_base
+
+Execute a aplicação:
+
+streamlit run app.py
+
+
+wget https://huggingface.co/TheBloke/Llama-2-7B-GGUF/resolve/main/llama-2-7b.Q4_K_M.gguf -O llama-2-7b.gguf
+
