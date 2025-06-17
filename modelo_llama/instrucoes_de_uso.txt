@@ -1,22 +1,36 @@
-Instruções de uso:
-Instale essa dependência caso falhe:
+******************************************INSTRUÇÕES DE USO*****************************************************************
 
-pip install llama-cpp-python
 
-python3 -m venv ~/meu_ambiente
+***DEPENDÊNCIAS**********************************************************************************************
 
-source ~/meu_ambiente/bin/activate
+sudo apt install python3-venv
 
-cd /diretorio_dos_arquivos
 
-pip install -r requeriments
+***EXECUÇÃO************************************************************************************************
 
-cd streamlit_base
+Para executar basta rodar o script "rodar_modelo.sh"
 
-Execute a aplicação:
+Ctrl + C para finalizar a execução, e execute o script "excluir_temps.sh" para excluir os arquivos e diretórios temporários
 
-streamlit run app.py
 
+****************************************************************************************************************************
+
+
+***LINK PARA DOWNLOAD DO ARQUIVO GGUF DO MODELO LLAMA-2.7B*******************************************************************
 
 wget https://huggingface.co/TheBloke/Llama-2-7B-GGUF/resolve/main/llama-2-7b.Q4_K_M.gguf -O llama-2-7b.gguf
 
+****************************************************************************************************************************
+
+
+***TREINAMENTO**************************************************************************************************************
+
+1-Crie uma pasta chamada "base_conhecimento" no mesmo diretório onde estão os arquivos "app.py" e "functions.py"
+2-Coloque todos os arquivos .pdf, .txt, etc dentro desta pasta
+3-Execute o comando: rodar_modelo.sh 
+
+Este comando irá executar um script que fará a leitura dos arquivos dentro da pasta "base_conhecimento", quebrá-los em tokens, e salvá-los no indíce FAISS(Converte trchos de texto em vetores numéricos) 
+
+A Biblioteca faiss-cpu é usada para buscar similaridade ultra-rápida, otimizada para cpu, ela que irá criar o indíce.
+
+****************************************************************************************************************************

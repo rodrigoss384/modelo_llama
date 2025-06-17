@@ -13,5 +13,9 @@ pip install -r requeriments.txt
 
 cd streamlit-base
 
+echo "Criando base de Conhecimento.."
+
+python3 criar_base_conhecimento.py
+
 echo "Executando a aplicação:"
 streamlit run app.py
